@@ -10,6 +10,7 @@
 .collapse {
 	position: relative;
 	top: -2px;
+	
 }
 
 .navbar-nav .nav-item {
@@ -29,6 +30,7 @@
 }
 .navbar-expand-lg .navbar-collapse {
 	justify-content: left;
+
 }
 .fixed-top {
 	background:white;
@@ -45,10 +47,10 @@ nav .social-media a {
 @media screen and (max-width:768px) {
 	.navbar-collapse {
 		position: absolute;
-		background: #b80818;
+		background: white;
 		width: 100%;
 		left: 0px;
-		top: 65px;
+		top: 25px;
 		padding-left: 20px;
 		padding-bottom: 70px;
 	}
