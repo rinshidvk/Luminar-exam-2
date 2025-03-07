@@ -100,17 +100,13 @@
          <div class="container-fluid " style="margin-top: 70px;">
             
             <div class="container w-75 pt-5">
-                <div class="carousel-indicators">
-                    <button type="button " data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
+               
                  <div id="demo" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-lg col-md-5 col-sm-12">
-                                    <h3 class=>FOR ALL YOUR FURNITURES NEEDS</h3>
+                                    <h2 class=>FOR ALL YOUR <br> FURNITURES NEEDS</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, voluptatibus totam velit cumque fuga architecto delectus nesciunt beatae ipsum, mollitia
                                          accusamus earum? Aspernatur, enim. Excepturi, animi impedit. Voluptatibus, magnam voluptates!</p>
                                     <button class="btn p-2" style="background-color: orange;">Contact Us</button>
@@ -127,7 +123,7 @@
 
                             <div class="row">
                                 <div class="col-lg col-md-5 col-sm-12">
-                                    <h3 class=>FOR ALL YOUR FURNITURES NEEDS</h3>
+                                    <h2 class=>FOR ALL YOUR <br> FURNITURES NEEDS</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, voluptatibus totam velit cumque fuga architecto delectus nesciunt beatae ipsum, mollitia
                                          accusamus earum? Aspernatur, enim. Excepturi, animi impedit. Voluptatibus, magnam voluptates!</p>
                                     <button class="btn p-2" style="background-color: orange;">Contact Us</button>
@@ -147,6 +143,11 @@
                         <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </button>
+
+                        <div class="carousel-indicators">
+                            <button type="button " data-bs-target="#demo" data-bs-slide-to="0" class="active bg-dark rounded-circle" style="width: 10px; height:10px;"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="bg-dark rounded-circle" style="width: 10px; height:10px;"></button>
+                        </div>
                     </div>
                  </div>      
             </div>
@@ -213,7 +214,7 @@
             <div class="container-fluid mt-5">
                 <h3 style="display: flex; justify-content: center;">LASTEST BLOG</h3>
                 <div class="container w-75">
-                    <div class="row">
+                    <div class="row gap-2">
                         <div class="col-lg col-md-5 col-sm-12">
                             <div class="card text-start">
                                 <img class="card-img-top" src="./images/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg.avif" alt="Title" />
@@ -249,18 +250,16 @@
             </div>
             <div class="container-fluid" style="margin-top: 100px; padding-bottom: 30px;">
                 <div class="container w-75">
-                    <div class="row">
-                        <div class="col-lg col-md-5 col-sm-12">
+                    <div class="row gap-2">
+                        <div class="col-lg col-md-5 col-sm-12 ">
                             <h3 style="margin-bottom: 30px;">CONTACT US</h3>
-                            <label for=""></label>
-                            <input type="text" style="width: 350px; margin-bottom: 20px;" placeholder="your name"><br>
-                            <label for=""></label>
-                            <input type="text" style="width: 350px; margin-bottom: 20px;" placeholder="phone number"><br>
-                            <label for=""></label>
-                            <input type="text" style="width: 350px; margin-bottom: 20px;" placeholder="email"><br>
-                            <label for=""></label>
-                            <textarea name="" placeholder="message" style="width: 400px;" id=""></textarea>
-                            <button class="btn bg-info" style="width: 100px;">send</button>
+                            <input type="email" class="form-control custom-input" id="exampleFormControlInput1" placeholder="Your Name">
+                            <input type="email" class="form-control custom-input mt-2" id="exampleFormControlInput1" placeholder="Phone Number">
+                            <input type="email" class="form-control custom-input mt-2" id="exampleFormControlInput1" placeholder="Email">
+                            <textarea class="form-control custom-input mt-2 " rows="2" id="exampleFormControlTextarea1" placeholder="Messages" rows="2"></textarea>
+                            <button class=" btn bg-info text-light mt-2">Send</button>
+                          
+                            
                         </div>
                         <div class="col-lg col-md-5 col-sm-12">
                         <img src="./images/3d-location-pin-marker-city-road-map-concept-gps-navigation-system-infographic_31949-1875.jpg.avif" class="img-fluid" alt="">
