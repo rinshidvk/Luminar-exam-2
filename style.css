@@ -1,0 +1,63 @@
+
+/* navbar */
+
+.nav-brand h4{
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.collapse {
+	position: relative;
+	top: -2px;
+}
+
+.navbar-nav .nav-item {
+	margin-right: 15px;
+}
+.navbar-nav .nav-link {
+	font-weight: 600;
+	color:black;
+	font-size: 13px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 32px;
+	margin-top: 7px;
+}
+.nav-link {
+	margin-left: 10px !important;
+}
+.navbar-expand-lg .navbar-collapse {
+	justify-content: left;
+}
+.fixed-top {
+	background:white;
+}
+nav .social-media a {
+	color:black;
+    text-decoration: none;
+	font-size: 13px;
+	top: 15px;
+	position: relative;
+	margin-right: 30px;
+	float: right;
+}
+@media screen and (max-width:768px) {
+	.navbar-collapse {
+		position: absolute;
+		background: #b80818;
+		width: 100%;
+		left: 0px;
+		top: 65px;
+		padding-left: 20px;
+		padding-bottom: 70px;
+	}
+	.navbar-toggler {
+		float: right;
+		position: relative;
+		top: 10px;
+		font-size: 15px;
+	}
+	
+	}
+
